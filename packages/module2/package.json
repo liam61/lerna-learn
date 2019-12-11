@@ -1,0 +1,23 @@
+{
+  "name": "@lerna-learn/module2",
+  "version": "0.0.0",
+  "description": "module2",
+  "author": "lawler61 <liuli.lawler61@bytedance.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && tsc -p tsconfig.build.json"
+  }
+}

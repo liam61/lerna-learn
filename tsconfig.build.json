@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "paths": {
+      "@lerna-learn/*": ["./node_modules/@lerna-learn/*/src"]
+    },
+    "preserveSymlinks": true
+  },
+  "exclude": ["**/*.spec.*", "**/*.test.*"],
+  "include": ["./src"]
+}

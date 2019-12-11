@@ -1,0 +1,4 @@
+node_modules/
+lib
+packages/*/__tests__
+packages/*/lib
